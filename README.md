@@ -1,2 +1,2 @@
 # E-learning-site
-歴史を学べるE-learning site
+日本史B対策用e-ラーニングサイト
