@@ -1,0 +1,233 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+
+<meta http-equiv="Content-Type"  charset="utf-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+
+<meta name="keywords" content="キーワード1,キーワード2,キーワード3">
+<meta name="description" content="このページに関する簡単な説明。">
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<title>練習ページ</title>
+<script type="text/javascript">
+       
+        function openwin(url, w, h) {
+                window.open(url, "_blank", "width=" + w + ",height=" + h + ",top=100, left=100");
+        }
+        var f=new Array(100);
+f[0]=0;
+f[1]=0;
+f[2]=0;
+f[3]=0;
+f[4]=0;
+f[5]=0;
+f[6]=0;
+f[7]=0;
+f[8]=0;
+f[9]=0;
+function yesno(b){
+if (f[b]==0){
+document.f1.elements[b].value='';
+document.f1.elements[b].style.background='#FF0000';
+document.f1.elements[b].style.color='#FFFFFF';
+f[b]=1;
+} else {
+document.f1.elements[b].value='';
+document.f1.elements[b].style.background='#FFFFFF';
+document.f1.elements[b].style.color='#000000';
+f[b]=0;
+}
+}
+        
+        </script>
+        
+<body>
+
+
+<!-- ヘッダ開始 -->
+<div id="header">
+
+<div class="top">
+<div class="container">
+
+<p class="siteTitle"><strong><a href="type2_design1_top.html"><img src="img/subtitle.jpg" alt="サイトのタイトル" width="229" height="27"></a></strong></p>
+
+
+
+</div>
+</div>
+
+<div class="nl">
+
+        <div class="container">
+                <ul class="clearFix">
+                        <li ><a href="homepage.1.html">ホーム <span class="en">Home</span></a></li>
+                        <li class="active"><a href="subpage-1.html">練習 <span class="en">Practice</span></a></li>
+                        <li><a href="subpage-2.html">最後の総復習<span class="en">Total Review</span></a></li>
+                        <li><a href="subpage-4.html">４７都道府県<span class="en">Total Review</span></a></li>
+                        <li class="last"><a href="subpage-3.html">ミニゲーム <span class="en">Minigame</span></a></li>
+                </ul>
+        </div>
+        </div>
+
+<div class="topicPath">
+<div class="container">
+
+<ol>
+<li><a href="homepage.1.html">ホーム</a></li>
+<li>練習</li>
+</ol>
+
+</div>
+</div>
+
+<hr class="none">
+
+</div>
+<!-- ヘッダ終了 -->
+
+
+<!-- コンテンツ開始 -->
+<div id="content">
+
+<div class="container">
+
+
+<!-- メインカラム開始 -->
+<div id="main">
+
+<h1 class="pageTitle">練習ページ</h1>
+
+
+
+<div class="section normal" id="noteSection">
+
+<div class="heading">
+<h2>旧石器・縄文時代</h2>
+</div>
+
+<p>①旧石器・縄文時代の遺跡</p>
+
+<FORM name="f1">
+       
+<p><INPUT type="button" value="" style="background:#FFFFFF"
+        onClick="yesno(0)"><a href="javascript:openwin('https://quizlet.com/303060576/flashcards', 800, 600);">単語カード</a></p>
+<p><INPUT type="button" value="" style="background:#FFFFFF"
+        onClick="yesno(1)"><a href="javascript:openwin('https://quizlet.com/303060576/flashcards', 800, 600);">筆記</a></p>
+
+
+<iframe src="https://quizgenerator.net/quizhoster/?action=play&course_id=49010&course_path=2d3f6210e182fc9b2b83bf05f1265056" height="500" width="100%" style="border:0"></iframe>
+
+<p></p>
+
+
+</div>
+
+<div class="section normal" id="pageSection">
+
+<div class="heading">
+<h2>弥生時代</h2>
+</div>
+<p>①弥生時代の遺跡</p>
+<FORM name="f1">
+<p><INPUT type="button" value="" style="background:#FFFFFF"
+        onClick="yesno(2)"><a href="javascript:openwin('https://quizlet.com/303206571/flashcards', 800, 600);">単語カード</a></p>
+
+
+
+<p><INPUT type="button" value="" style="background:#FFFFFF"
+        onClick="yesno(3)"><a href="javascript:openwin('https://quizlet.com/303206571/write', 800, 600);">筆記</a></p>
+</FORM>
+
+
+
+
+</div>
+
+<div class="section normal" id="pointSection">
+
+<div class="heading">
+<h2>江戸時代</h2>
+</div>
+<p>江戸時代の遺跡1</p>
+<p><INPUT type="button" value="" style="background:#FFFFFF"
+        onClick="yesno(4)"><a href="javascript:openwin('https://quizlet.com/305402788/flashcards', 800, 600);">単語カード</a></p>
+      
+
+
+
+
+<p>江戸時代の遺跡2</p>
+
+<p><INPUT type="button" value="" style="background:#FFFFFF"
+        onClick="yesno(5)"><a href="javascript:openwin('https://quizlet.com/305404445/flashcards', 800, 600);">単語カード</a></p>
+      
+
+
+
+<iframe src="https://quizgenerator.net/quizhoster/?action=play&course_id=50027&course_path=3aaffcedb75db83932c09cf0d5e50d7f" height="500" width="100%" style="border:0"></iframe>
+
+</div>
+
+
+
+        
+        </div>
+<!-- メインカラム終了 -->
+
+
+<!-- サイドバー開始 -->
+<div id="nav">
+
+
+<div class="section emphasis">
+<div class="inner">
+
+<h2>音読の効果</h2>
+
+<p><a href="#"></a></p>
+
+<p>音読は声に出すアウトプットとその音を耳で聞くインプットが同時に行えて記憶の定着を助けます</p>
+
+</div>
+</div>
+
+
+
+
+
+</div>
+<!-- サイドバー終了 -->
+
+
+<hr class="clear">
+
+</div>
+
+</div>
+<!-- コンテンツ終了 -->
+
+
+<!-- フッタ開始 -->
+<div id="footer">
+
+<div class="container">
+
+<ul class="nl">
+<li><a href="homepage.1.html">ホーム</a></li>
+
+</ul>
+
+
+
+</div>
+
+</div>
+<!-- フッタ終了 -->
+
+
+</body>
+</html>
